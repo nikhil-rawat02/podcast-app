@@ -1,0 +1,38 @@
+.confirm_update_container {
+    position: absolute;
+    top: 50px;
+    z-index: 101;
+    width: 98.5vw;
+    height: 120vh;
+}
+
+.confirm_update_navbar {
+    margin: 5px 10px;
+    text-align: right;
+}
+
+.confirm_update {
+    position: sticky;
+    top: 17vh;
+    left: 35vw;
+    height: 20vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.confirm_update_main {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.confirm_update_main>h1 {
+    margin: 0 10px;
+}

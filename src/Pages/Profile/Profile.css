@@ -1,0 +1,170 @@
+.profile_container{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 100;
+}
+
+.cover_image > img{
+    height: 400px;
+    width: 85vw;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.cover_image > div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 83vw;
+}
+.cover_image > div > label > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile_image{
+    position: absolute;
+    top: 355px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.profile_image > img{
+    width: 100%;
+    border: 10px solid #494365;
+    border-radius: 50%;
+}
+.profile_image > div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 135px;
+}
+.profile_image > div >  label > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userName_description{
+    position: absolute;
+    width: 64vw;
+    top: 405px;
+    left: 345px;   
+    margin-bottom: 20px;
+}
+.userName_description > div{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vw;
+}
+.userName_description > div > span{
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.userName_description p{
+    display: block;
+    width: 95%;
+    margin: 0 10px;
+    height: 80px;
+}
+.other_details{
+    position: absolute;
+    top: 560px;
+    left: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+.other_details > h1{
+    display: inline-block;
+    /* border-bottom: 1px solid #6f6c83; */
+    padding-bottom: 20px;
+    margin-top: 8px;
+}
+.user_details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10rem;
+    padding: 20px 10px;
+    width: 95%;
+    border-bottom: 1px solid #6f6c83;
+}
+.user_details > label{
+    font-size: 18px;
+    font-weight: 400;
+}
+.user_details > input, .user_details > select, .user_bio > div > input{
+    box-sizing: content-box;
+    height: 25px;
+    width: 42vw;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+}
+.user_bio > div > textarea{
+    height: 120px;
+    width: 43.2vw;
+    padding: 10px;
+    margin-left: 58px;
+}
+.user_details > input:focus,.mobile > input:focus, .alternate_email > input:focus, .user_bio > div > textarea:focus{
+    outline: none;
+}
+
+.user_bio > div > p{
+    margin-left: 58px;
+    margin-top: 5px;
+}
+.user_dob > input{
+    margin-left: -20px;
+}
+.user_gender > select{
+    margin-left: 20px;
+}
+.user_contact{
+    gap: 20%;
+}
+.user_contact > div > label{
+    margin-right: 10px;
+}
+.mobile > input{
+    margin-left: 22px;
+} 
+.alternate_email > input{
+    margin-left: -45px;
+}
+.submit_button{
+    width: 90vw;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -75px;
+}
+.submit_button button{
+    margin: auto;
+    display: inline-block;
+    width: 200px;
+}
+@media screen and (max-width: 925px){
+    .userName_description > div{
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+}

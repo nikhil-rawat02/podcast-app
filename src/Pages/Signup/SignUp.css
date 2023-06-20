@@ -1,0 +1,40 @@
+.form_container {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 60px;
+    width: 50vw;
+    margin: auto;
+
+}
+
+.form_container h1 {
+    color: whitesmoke;
+}
+
+.form_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seprator {
+    display: flex;
+    gap: 10px;
+}
+
+.seprator hr {
+    width: 130px;
+    background-color: gray;
+    height: 0.1px;
+}
+
+.login_option a {
+    text-decoration: none;
+    color: #1FDF64;
+}

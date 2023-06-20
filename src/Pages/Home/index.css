@@ -1,0 +1,88 @@
+.home_container{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+    height: 100vh;
+}
+.display_video{
+    position: absolute;
+    top: 2px;
+    bottom: 0;
+    left: -150px;
+    width: 70%;
+    height: 100%; 
+    
+}
+.display_video video{
+    min-width: 100%; 
+    min-height: 80%; 
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.shadow_effect{
+    position: absolute;
+    top: 0;
+    height: 104.5vh;
+    width: 107vw;
+    background-image: linear-gradient(to right, #a553e473, #000000c2);
+}
+.podcast_info{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    width: 50vw;
+    color: white;
+    z-index: 5;
+}
+.podcast_info h1{
+    font-size: 40px;
+}
+.podcast_info h2{
+    position: relative;
+    right: -100px;
+    font-size: 40px;
+}
+.podcast_info h3{
+    position: relative;
+    top: 80px;
+    font-size: 24px;
+}
+.episodes_container{
+    position: absolute;
+    z-index: 100;
+    top: 105vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.episodes_cards_container{
+    display: flex;
+    gap: 20px;
+}
+.episode_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.episode_card > img {
+    height: 100px;
+    width: 80px;
+    box-shadow: 9px 1px 10px rgb(213, 149, 229);
+}
+.episode_card > p{
+    font-size: 8px;
+}
+.episodes_container > p{
+    color: white;    
+}

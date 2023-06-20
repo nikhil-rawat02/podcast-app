@@ -1,0 +1,24 @@
+.episode{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.episode > img{
+    width: 100%;
+    height: 95%;
+}
+.episode > p{
+    width: 84%;
+    flex: 1;
+    margin: 0 2px;
+    padding: 0 10px;
+}
+.episode_name{
+   
+}
+.episode_creator{
+    font-weight: 100;
+    color: rgb(156, 156, 156);
+    padding-left: 25px !important;
+
+}

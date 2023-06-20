@@ -1,0 +1,65 @@
+.mypodcast_container{
+    position: absolute;
+    z-index: 100;
+    top: 60px;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.search_bar_container{
+    position: relative;
+    width: 50vw;
+    margin: 20px;
+}
+.search_bar_icon{
+    position: absolute;
+    height: 40px;
+    width: 30px;
+    margin-left: 10px;
+}
+.mypodcast{
+    display: grid;
+    padding: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 35px;
+    row-gap: 20px;
+    width: 74%;
+}
+.album_episode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.album{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(204, 204, 204);
+    width: fit-content;
+    padding: 20px 10px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.album:hover{
+    opacity: 1;
+}
+.album > img{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+.album > span{
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    word-break: break-word;
+    margin: 0 10px;
+}

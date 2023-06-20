@@ -1,0 +1,20 @@
+button{
+    position: relative;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+     
+}
+.btn div{
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.btn > span{
+    color: black;  
+}
+.btn_normal{
+    width: 100px;
+    background-color: #1FDF64;
+}

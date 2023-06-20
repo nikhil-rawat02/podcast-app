@@ -1,0 +1,32 @@
+.input_container {
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.form_container form {
+    margin: auto;
+    padding: auto;
+}
+
+.input_container input {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input_container input:focus {
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.input_container input::placeholder {
+    color: #514C6c;
+}

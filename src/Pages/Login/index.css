@@ -1,0 +1,23 @@
+.login_container{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 50vw;
+    margin: auto;
+    gap: 30px;
+}
+.login_container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login_container > h1{
+    color: white;
+    /* margin-bottom: 40px; */
+}

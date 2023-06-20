@@ -1,0 +1,42 @@
+.custom_audio_player{
+    position: fixed;
+    z-index: 201;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 ;
+    padding: 1rem; 
+    justify-content: center;
+    background-color: rgba(14,2,21,0.5);
+}
+.display_image_player{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+.duration_range{
+    filter: hue-rotate(25deg);
+    width: 100%;
+}
+.duration_flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-area: 0.5rem;
+    width: 50%;
+}
+.duration_flex > p{
+    font-size: 0.7rem;
+    color: bisque;
+}
+.custom_audio_player > p > svg{
+    filter: invert(1);
+    cursor: pointer;
+}
+.volume_range{
+    filter: hue-rotate(25deg);
+    width: 20%;
+}

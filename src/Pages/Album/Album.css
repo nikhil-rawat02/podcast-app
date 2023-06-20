@@ -1,0 +1,36 @@
+.album_container{
+    position: absolute;
+    z-index: 100;
+    top: 62px;
+    width: 98.8vw;
+} 
+.album_cover{
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+    background-image: linear-gradient(to top, #ffffff73, #ff0000c9);
+    filter: drop-shadow(10px 10px 10px #d37c49);
+}
+.album_details{
+    margin-left: 30px;
+}
+.album_details > div, .album_details > div > img{
+    height: 200px;
+    width: 200px;
+}
+.album_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+.episodes{
+    display: flex;
+    flex-direction: column;
+    width: 98.5vw;
+    gap: 15px;
+    background:transparent;
+    margin-bottom: 74px;
+}
