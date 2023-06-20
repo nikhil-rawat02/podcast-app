@@ -18,7 +18,6 @@ const Index = () => {
     );
     const docSnap = getDocs(q);
     docSnap.then((data) => {
-      // const episodesData = [];
       data.docs.forEach((albumsSnap) => {
         const albumId = albumsSnap._document.key.path.segments[6];
         const q = query(collection(db, `podcasts/${albumId}/episode`));
@@ -38,7 +37,6 @@ const Index = () => {
               "audio": episodeAudio,
             }
             setDisplayEpisode(prevState => [...prevState, episodeData]);
-            // episodesData.push(episodeData);
           })
         })
           .catch(error => {
@@ -47,8 +45,6 @@ const Index = () => {
             console.log("Error Message => ", error.message);
           });
       })
-      // setDisplayEpisode(episodesData);
-      // console.log(episodesData,episodesData.length,episodesData.type);
     })
       .catch(error => {
         console.log("Error while Fetching Data of Podcast's Albums");
@@ -56,7 +52,7 @@ const Index = () => {
         console.log("Error message => ", error.message);
       })
   }, [])
-  console.log(displayEpisode);
+
   return (
     <div className='container'>
       <Header />

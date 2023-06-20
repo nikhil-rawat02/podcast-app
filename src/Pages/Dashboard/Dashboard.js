@@ -61,7 +61,6 @@ function Dashboard() {
                 return album;
             }
         })
-        console.log(searchedStringResult);
         setShowPodcasts(searchedStringResult);
 
     }
@@ -113,9 +112,8 @@ function Dashboard() {
                 console.log(error);
             }
         }
-     
+        loadData();
         return () => loadData();
-
     }, [dispatch]);
 
     useEffect(() => {

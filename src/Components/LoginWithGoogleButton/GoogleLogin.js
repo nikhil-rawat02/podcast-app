@@ -66,7 +66,7 @@ function GoogleLogin() {
         cursor: "pointer",
         display: "flex",
         alignItems: "center",
-        gap: "5px",
+        gap: "20px",
         justifyContent: "center",
         color:"black",
     }
