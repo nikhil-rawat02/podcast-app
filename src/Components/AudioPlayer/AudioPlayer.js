@@ -42,9 +42,9 @@ function AudioPlayer({ audioSrc, image, isAudioPlaying, setIsAudioPlaying }) {
     }
 
     const handleTimeUpdate = (e) => {
-        handleDuration(e)
-        // setCurrentTime(audioRef.current.currentTime);
-        // console.log(e.target , audioRef.current.curentTime, "message");
+       
+        setCurrentTime(audioRef.current.currentTime);
+        console.log(e.target , audioRef.current.curentTime, "message");
     }
 
     const handleLoadedMetadata = () => {
