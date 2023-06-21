@@ -8,6 +8,7 @@ import { setUser } from '../../slices/userSlice';
 import Google from '../Icon/google';
 import profileImage from '../../images/default-profile-picture.png';
 import coverImage from '../../images/default-cover.png';
+import { toast } from 'react-toastify';
 
 function GoogleLogin() {
 
@@ -51,6 +52,9 @@ function GoogleLogin() {
                 navigate("/profile")
             })
             .catch((error) => {
+                if(error.code === "auth/unauthorized-domain"){
+                    toast.error("unauthorized-domain! Try Signup")
+                }
                 console.log(`error Code =>  ${error.code}`);
                 console.log(`error message =>  ${error.message}`);
                 console.log(`Email error =>  ${error.customData.email}`);
