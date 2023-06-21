@@ -77,6 +77,7 @@ function Profile() {
         uid: user.uid
       })
       );
+        toast.success("Profile Details has been updated");
     }
     catch (error) {
       if (error.code === "auth/weak-password") {

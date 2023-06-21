@@ -11,7 +11,6 @@ function AudioPlayer({ audioSrc, image, isAudioPlaying, setIsAudioPlaying }) {
     const handleDuration = (e) => {
         setCurrentTime(e.target.value);
         audioRef.current.curentTime = e.target.value;
-        console.log(e.target.value , audioRef.current.curentTime, "message");
     }
 
     const togglePlay = () => {
