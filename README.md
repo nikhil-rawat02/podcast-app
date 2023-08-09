@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+<h1 align="center"> Podcast Application</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### About
+<p>Podcasts are primarily an audio medium, with some programs offering a supplemental video component. Streaming applications and podcasting services provide a convenient and integrated way to manage a personal consumption queue across many podcast sources and playback devices. There are also podcast search engines, which help users find and share podcast episodes.</p>
 
-## Available Scripts
+### Images
+https://github.com/nikhil-rawat02/podcast-app/assets/117645790/cc2a6ae9-9995-4169-bd45-b943fde94b3a
 
-In the project directory, you can run:
+## Signup Page
+![signup](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/721125e5-4171-4d4a-bcdb-aa9a5f92e5d7)
 
-### `npm start`
+## Login Page
+![login](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/5dc6bbbd-97ee-4b1b-b40d-c83aa3ba3d14)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Profile Page
+![profile page](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/352a9e8e-3047-4911-9d8c-3f70a4bfc77b)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Discover Albums
+![discover page](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/ab0ab204-1206-4669-9fbe-9ee4562fcc9f)
 
-### `npm test`
+## Own's Album
+![personal podcasts](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/0968799c-e74e-4cdb-aa62-6e255d6fb7f0)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Album and podcasts
+![albums](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/9e0094be-da41-4145-90d6-bf051c89f98f)
 
-### `npm run build`
+## Create Podcast Popup
+![create album](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/bc8beb12-76a6-495a-9373-4732ab4ba50a)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Create Episode Popup
+![create episode](https://github.com/nikhil-rawat02/podcast-app/assets/117645790/718c60b5-c4c4-4d18-8aa7-11561daa185c)
